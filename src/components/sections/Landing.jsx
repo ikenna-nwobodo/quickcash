@@ -2,7 +2,7 @@ import React from "react";
 
 function Landing() {
   return (
-    <div className="w-full md:h-[85vh] flex flex-col md:flex-row overflow-hidden justify-between gap-10">
+    <div className="w-10/12 md:h-[85vh] flex flex-col md:flex-row overflow-hidden justify-between gap-10">
       <div className="flex flex-col items-center md:items-start justify-center gap-6 w-full md:w-6/12">
         <p className="text-4xl md:text-7xl hidden md:block font-bold">
           Faster, <br /> cheaper, <br /> seamless.

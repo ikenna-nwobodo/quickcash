@@ -1,12 +1,16 @@
 import React from "react";
 import Landing from "./sections/Landing";
 import Features from "./sections/Features";
+import Talk from "./sections/Talk";
+import Stats from "./sections/Stats";
 
 function Home() {
   return (
-    <div className="w-10/12 flex flex-col gap-10">
+    <div className="w-full flex flex-col items-center gap-10">
       <Landing />
-      <Features/>
+      <Features />
+      <Talk />
+      <Stats />
     </div>
   );
 }
