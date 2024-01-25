@@ -44,7 +44,7 @@ function Landing() {
           alt=""
           width={550}
         />
-        <div className="h-[240px] w-[400px] backdrop-blur-xl left-0 bg-primary/40 rounded-3xl border border-neutral-400 absolute"></div>
+        {/* <div className="h-[240px] w-[400px] backdrop-blur-xl left-0 bg-primary/20 rounded-3xl border border-black/20 absolute"></div> */}
       </div>
     </div>
   );

@@ -3,6 +3,8 @@ import Landing from "./sections/Landing";
 import Features from "./sections/Features";
 import Talk from "./sections/Talk";
 import Stats from "./sections/Stats";
+import Contact from "./sections/Contact";
+import Footer from "./sections/Footer";
 
 function Home() {
   return (
@@ -11,6 +13,8 @@ function Home() {
       <Features />
       <Talk />
       <Stats />
+      <Contact />
+      <Footer />
     </div>
   );
 }

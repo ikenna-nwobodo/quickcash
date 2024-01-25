@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 
 function App() {
   return (
-    <div className="App bg-white text-black flex flex-col justify-center items-center pb-8 w-full overflow-x-hidden">
+    <div className="App bg-white text-black flex flex-col justify-center items-center w-full overflow-x-hidden">
       <Navbar />
       <Home />
     </div>

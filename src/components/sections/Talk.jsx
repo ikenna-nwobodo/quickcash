@@ -26,22 +26,69 @@ function Talk() {
               alt=""
               className="z-30"
             />
-            <div className="absolute bg-gradient-to-r from-primary/30 to-teal-500 h-[20rem] w-[20rem] filter blur-3xl rounded-full"></div>
+            <div className="absolute features bg-gradient-to-r from-primary/30 to-teal-500 h-[20rem] w-[20rem] filter blur-3xl rounded-full"></div>
           </div>
         </div>
       </div>
-      <div className="flex flex-col justify-center items-center gap-6">
-        <p className=" w-5/12 text-center italic">
-          “Simply better than any other product out, i really recommend for both
-          beginner and advanced users”
-        </p>
-        <div className="flex gap-6 items-center">
-          <div className="bg-primary h-8 w-8 rounded-full"></div>
-          <div>
-            <p className="text-sm font-medium">Egbon Adugbo</p>
-            <p className="text-xs text-black/60">
-              Director of technology, Sod Co.
-            </p>
+      <div className="flex gap-4">
+        <div className="flex flex-col justify-center items-center gap-6">
+          <p className="text-center italic">
+            “Simply better than any other product out, i really recommend for
+            both beginner and advanced users”
+          </p>
+          <div className="flex gap-6 items-center">
+            <div className="bg-primary h-8 w-8 rounded-full"></div>
+            <div>
+              <p className="text-sm font-medium">Egbon Adugbo</p>
+              <p className="text-xs text-black/60">
+                Director of technology, Sod Co.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center gap-6">
+          <p className="text-center italic">
+            “Simply better than any other product out, i really recommend for
+            both beginner and advanced users”
+          </p>
+          <div className="flex gap-6 items-center">
+            <div className="bg-primary h-8 w-8 rounded-full"></div>
+            <div>
+              <p className="text-sm font-medium">Egbon Adugbo</p>
+              <p className="text-xs text-black/60">
+                Director of technology, Sod Co.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center gap-6">
+          <p className="text-center italic">
+            “Simply better than any other product out, i really recommend for
+            both beginner and advanced users”
+          </p>
+          <div className="flex gap-6 items-center">
+            <div className="bg-primary h-8 w-8 rounded-full"></div>
+            <div>
+              <p className="text-sm font-medium">Egbon Adugbo</p>
+              <p className="text-xs text-black/60">
+                Director of technology, Sod Co.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col justify-center items-center gap-6">
+          <p className="text-center italic">
+            “Simply better than any other product out, i really recommend for
+            both beginner and advanced users”
+          </p>
+          <div className="flex gap-6 items-center">
+            <div className="bg-primary h-8 w-8 rounded-full"></div>
+            <div>
+              <p className="text-sm font-medium">Egbon Adugbo</p>
+              <p className="text-xs text-black/60">
+                Director of technology, Sod Co.
+              </p>
+            </div>
           </div>
         </div>
       </div>
