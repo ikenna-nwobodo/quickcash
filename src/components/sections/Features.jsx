@@ -2,8 +2,8 @@ import React from "react";
 
 function Features() {
   return (
-    <div className="bg-black text-white w-full grid place-items-center h-[40vh]">
-      <div className="flex flex-col md:flex-row w-10/12 gap-10 py-4 md:py-8">
+    <div className="bg-black text-white w-full grid place-items-center md:h-[40vh]">
+      <div className="flex flex-col md:flex-row w-11/12 md:w-10/12 gap-10 py-10 md:py-8">
         <div className="flex flex-col gap-2 p-2 justify-center">
           <div className="bg-primary p-2 rounded-full w-max grid place-items-center">
             <img

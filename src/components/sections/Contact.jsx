@@ -2,9 +2,9 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="text-black w-10/12 grid place-items-center h-[65vh]">
-      <div className="w-full grid grid-cols-3 gap-8">
-        <div className="flex flex-col gap-4">
+    <div className="text-black w-10/12 grid place-items-center lg:h-[65vh]">
+      <div className="w-full grid lg:grid-cols-3 gap-8">
+        <div className="flex flex-col gap-4 items-center md:items-start">
           <p className="text-2xl font-semibold">Ready to get started?</p>
           <p className="text-sm text-black/60">
             With QuickCash as your financial ally, experience a seamless
@@ -14,7 +14,7 @@ function Contact() {
             – QuickCash by Palmpay. Your gateway to effortless and secure
             internet business transactions is just around the corner.
           </p>
-          <div className="grid grid-cols-2 gap-3 w-10/12">
+          <div className="grid grid-cols-2 gap-3 sm:w-6/12 md:w-10/12">
             <button className="bg-primary text-xs px-2 py-3 border border-primary rounded-lg shadow-xl text-white hover:-translate-y-1">
               Join Now
             </button>

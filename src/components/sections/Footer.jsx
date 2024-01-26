@@ -2,10 +2,10 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#ECECEC] bg-gradient-to-br from-[#ececec] to-primary/30 text-black h-[40vh] w-full grid place-items-center">
-      <div className="w-10/12 flex flex-col gap-6 justify-center items-center">
-        <div className="flex items-center justify-between w-full">
-          <p className="text-3xl font-bold w-3/12">
+    <div className="bg-[#ECECEC] bg-gradient-to-br from-[#ececec] to-primary/30 text-black min-h-[40vh] md:h-[40vh] w-full grid place-items-center">
+      <div className="w-10/12 flex flex-col gap-6 justify-center items-center py-6">
+        <div className="grid md:flex items-center gap-6 justify-between w-full">
+          <p className="text-3xl font-bold md:w-3/12">
             Make secure payments & grow your online business
           </p>
           <div className="flex flex-col gap-3">
@@ -30,7 +30,7 @@ function Footer() {
           </div>
         </div>
         <div className="bg-gray-400 w-10/12 h-[0.5px]"></div>
-        <div className="flex w-full gap-4 text-sm">
+        <div className="grid md:flex w-full gap-4 text-sm">
           <p>Demo</p>
           <p>About</p>
           <p>Testimonies</p>
