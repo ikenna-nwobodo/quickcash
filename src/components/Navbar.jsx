@@ -1,8 +1,14 @@
 import React from "react";
+import { motion } from "framer-motion";
 
 function Navbar() {
   return (
-    <div className="flex items-center justify-between text-sm w-10/12 py-6">
+    <motion.div
+      initial={{ opacity: 0, y: -200 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ ease: "easeInOut", duration: 1, type: "tween" }}
+      className="flex items-center justify-between text-sm w-10/12 mb-8 py-6"
+    >
       <div className="flex items-center gap-8">
         <div className="flex items-center gap-4">
           <img src={require("../assets/images/logo.png")} alt="logo" />
@@ -39,7 +45,7 @@ function Navbar() {
           menu
         </span>
       </div>
-    </div>
+    </motion.div>
   );
 }
 

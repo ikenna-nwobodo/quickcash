@@ -1,4 +1,5 @@
 import React from "react";
+// import { motion } from "framer-motion";
 
 function Landing() {
   return (
@@ -10,7 +11,7 @@ function Landing() {
         <p className="text-4xl md:text-7xl block md:hidden text-center font-bold">
           Faster, cheaper, <br /> seamless.
         </p>
-        <div className="md:w-8/12 text-center md:text-start text-sm font-medium leading-5 tracking-wide">
+        <div className="md:w-8/12 text-center md:text-start text-sm md:font-medium leading-5 tracking-wide">
           Get ready for unparalleled convenience with our latest release, the
           QuickCash credit card. Seamlessly merging innovation with reliability,
           QuickCash empowers you to navigate your financial journey with ease.
