@@ -5,17 +5,23 @@ import Talk from "./sections/Talk";
 import Stats from "./sections/Stats";
 import Contact from "./sections/Contact";
 import Footer from "./sections/Footer";
+import { motion } from "framer-motion";
 
 function Home() {
   return (
-    <div className="w-full flex flex-col items-center gap-10">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ ease: "easeInOut", duration: 3 }}
+      className="w-full flex flex-col items-center bg-white relative z-50"
+    >
       <Landing />
       <Features />
       <Talk />
       <Stats />
       <Contact />
       <Footer />
-    </div>
+    </motion.div>
   );
 }
 

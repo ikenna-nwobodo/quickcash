@@ -14,7 +14,7 @@ function Navbar() {
           <img src={require("../assets/images/logo.png")} alt="logo" />
           <p className="font-semibold text-base">QuickCash</p>
         </div>
-        <div className="lg:flex hidden items-center gap-6 font-medium">
+        <div className="lg:flex hidden items-center  lg:gap-6 font-medium">
           <p className="cursor-pointer border-b-2 border-transparent hover:-translate-y-1 hover:border-primary px-2 pt-2 pb-0.5">
             Demo
           </p>
@@ -32,11 +32,11 @@ function Navbar() {
           </p>
         </div>
       </div>
-      <div className="hidden md:grid grid-cols-2 gap-5 font-medium">
-        <button className="hover:bg-primary/70 hover:text-white px-6 py-3 rounded-lg hover:shadow-lg hover:-translate-y-1">
+      <div className="grid lg:grid-cols-2 gap-5 font-medium">
+        <button className="hover:bg-primary/70 hover:text-white hidden lg:block px-6 py-3 rounded-lg hover:shadow-lg hover:-translate-y-1">
           Sign In
         </button>
-        <button className="bg-primary text-white px-6 py-3 rounded-lg shadow-lg hover:-translate-y-1">
+        <button className="bg-primary text-white hidden md:block px-6 py-3 rounded-lg shadow-lg hover:-translate-y-1">
           Get Your Card
         </button>
       </div>

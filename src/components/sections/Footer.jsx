@@ -2,7 +2,7 @@ import React from "react";
 
 function Footer() {
   return (
-    <div className="bg-[#ECECEC] bg-gradient-to-br from-[#ececec] to-primary/30 text-black min-h-[40vh] md:h-[40vh] w-full grid place-items-center">
+    <div className="fixed bottom-0 z-0 bg-[#ECECEC] bg-gradient-to-br from-[#ececec] to-primary/30 text-black min-h-[40vh] md:h-[40vh] w-full grid place-items-center">
       <div className="w-10/12 flex flex-col gap-6 justify-center items-center py-6">
         <div className="grid md:flex items-center gap-6 justify-between w-full">
           <p className="text-3xl font-bold md:w-3/12">
